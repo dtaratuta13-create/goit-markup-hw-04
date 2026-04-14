@@ -66,6 +66,7 @@ img {
 /* -------------Address------------- */
 .address-list {
   display: flex;
+  gap: 40px;
 }
 
 .address-link {
@@ -97,9 +98,6 @@ img {
   font-style: normal;
 }
 
-.list-list-item:not(:last-child) {
-  margin-right: 40px;
-}
 /* -------------Logo1------------- */
 
 .logo-link {
@@ -461,9 +459,7 @@ img {
 }
 
 .footer-container {
-
 align-items: baseline;
- 
 }
 .span-studio {
   color: #f4f4fd;
@@ -535,11 +531,6 @@ align-items: baseline;
   gap: 120px; 
 }
 
-
-.container-footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .team-social-link {
   display: flex;
